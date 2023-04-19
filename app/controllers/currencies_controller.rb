@@ -21,4 +21,18 @@ class CurrenciesController < ApplicationController
     render({ :template => "currency_templates/step_two.html.erb"})
 
   end
+
+
+  #def output
+   # @raw_data_output = open("https://api.exchangerate.host/convert?from=USD&to=EUR").read
+    #@parsed_data = JSON.parse(@raw_data_output)
+    #@symbols_hash = @parsed_data.fetch("convert")
+
+    #@array_of_symbols = @symbols_hash.keys
+
+    #@from_symbol = params.fetch("to_currency")
+    #render({ :template => "currency_templates/output.html.erb"})
+
+  #end
+
 end
